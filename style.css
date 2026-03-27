@@ -13,14 +13,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 240px;
+    gap: 350px;
 
 }
 
 .words{
     display: flex;
     text-align: center;
-    gap: 70px;
+    gap: 50px;
 }
 
 .top-corner-right{
@@ -45,7 +45,7 @@ body{
 
 
 .ayuda{
-    padding: 0 20px 0 20px;
+    padding: 0 40px 0 40px;
     background-color: blue;
     margin-left: 100px;
     color: white;
@@ -79,4 +79,47 @@ button{
 
 .imagen img{
     width: 1000px;
+}
+
+/*Gallery*/
+
+.gallery{
+    display: flex;
+    max-width: 2000px;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.content{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid blue;
+}
+
+.content img {
+    width: 50px;
+}
+
+.content-content{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.content-content img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+.content-content :hover{
+
+}
+
+.content-content p{
+    max-width: 300px;
 }
