@@ -9,18 +9,19 @@ body{
 /*Section*/
 
 .section-yk{
-    flex-wrap: wrap;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 350px;
-
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
 }
 
 .words{
     display: flex;
-    text-align: center;
     gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .top-corner-right{
@@ -30,17 +31,18 @@ body{
 }
 
 .words-2{
-    padding: 10px 0 0 170px;
-
+    padding: 20px;
 }
 
 .middle{
-    flex-wrap: wrap;
-    height: 400px;
-    justify-content: space-around;
+    background-color: rgb(117, 202, 255);
     display: flex;
-    margin-top: 20px;
-    background-color: rgb(166, 220, 255);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    height: auto;
 }
 
 
@@ -55,7 +57,7 @@ body{
 
 .imagen{
     margin-top: 20px;
-    position: relative;
+    display: flex;
     right: 10px;
 }
 
@@ -66,13 +68,31 @@ body{
     width: 190px;
 }
 
+.words-2 h2{
+    font-size: clamp(28px, 5vw, 50px);
+    width: 100%;
+    max-width: 600px;
+}
+
+.words-2 p{
+    font-size: clamp(14px, 2vw, 18px);
+    width: 100%;
+    max-width: 600px;
+}
+
+.content-content h2{
+    margin: 10px 0 5px 0;
+}
+
 /*botones*/
 
 button{
-    margin-top: 10px;
-    padding: 15px 40px 15px 40px;
-    border-radius: 20px;
-    background-color: rgba(60, 163, 252, 0.3);
+    font-size: 1rem;
+    padding: 12px 30px;
+    border: solid blue;
+    background-color: rgb(1, 94, 255, 0.6);
+    border-radius: 10px;
+    color: white;
 }
 
 /*Imagen*/
@@ -92,10 +112,12 @@ button{
 }
 
 .content{
-    width: 400px;
-    height: 300px;
-    border-radius: 20px;
-    border: solid blue;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    max-height: 300px;
+    padding: 20px;
+    border: solid blue 5px;
 }
 
 .content img {
@@ -113,7 +135,7 @@ button{
 
 .content-content img{
     width: 70px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .content-content :hover{
@@ -121,5 +143,29 @@ button{
 }
 
 .content-content p{
-    max-width: 300px;
+    max-width: 250px;
+}
+
+/*Bottom*/
+
+.bottom{
+    background-color: rgb(117, 202, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.email-number{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-number p{
+    margin: 0px;
+    font-size: 30px;
 }
