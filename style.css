@@ -1,0 +1,82 @@
+/*Body*/
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+
+/*Section*/
+
+.section-yk{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 240px;
+
+}
+
+.words{
+    display: flex;
+    text-align: center;
+    gap: 70px;
+}
+
+.top-corner-right{
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.words-2{
+    padding: 10px 0 0 170px;
+
+}
+
+.middle{
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(166, 220, 255);
+}
+
+
+.ayuda{
+    padding: 0 20px 0 20px;
+    background-color: blue;
+    margin-left: 100px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.imagen{
+    margin-top: 20px;
+    position: relative;
+    right: 10px;
+}
+
+/*Palabras*/
+
+.top-corner-right p{
+    margin: 0px;
+    width: 190px;
+}
+
+/*botones*/
+
+button{
+    margin-top: 10px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 20px;
+    background-color: rgba(60, 163, 252, 0.3);
+}
+
+/*Imagen*/
+
+.imagen img{
+    width: 1000px;
+}
